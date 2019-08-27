@@ -35,3 +35,5 @@ _ReSharper*/
 # NCrunch
 *.ncrunch*
 .*crunch*.local.xml
+
+*.vshistory/

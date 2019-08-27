@@ -8,11 +8,22 @@
     -->
     <PackageId>*$(MSBuildProjectFullPath)*</PackageId>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
   <ItemGroup>
     <InternalsVisibleTo Include="Text.CSharp.Analyzers" />
     <InternalsVisibleTo Include="Text.VisualBasic.Analyzers" />
     <InternalsVisibleTo Include="Text.Analyzers.UnitTests" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Win32.Registry" Version="4.5.0" />
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+    <PackageReference Include="System.Xml.XmlDocument" Version="4.3.0" />
+    <PackageReference Include="System.Xml.XPath.XmlDocument" Version="4.3.0" />
+  </ItemGroup>
   <Import Project="..\..\Utilities\Compiler\Analyzer.Utilities.projitems" Label="Shared" />
   <Import Project="..\..\Utilities\Workspaces\Workspaces.Utilities.projitems" Label="Shared" />
+  <Import Project="..\..\Utilities\SpellChecker\SpellChecker.projitems" Label="Shared" />
 </Project>

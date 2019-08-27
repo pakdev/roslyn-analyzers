@@ -188,8 +188,11 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Microsoft.CodeAnalysis.Visu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReleaseNotesUtil", "src\ReleaseNotesUtil\ReleaseNotesUtil.csproj", "{5F301137-892C-4AD3-8550-B02992DC1A46}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Spelling.Utilities", "src\Utilities\SpellChecker\Spelling.Utilities.shproj", "{0D4A1D46-2CA4-4D7D-84B5-F31F8047F713}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Utilities\SpellChecker\SpellChecker.projitems*{0d4a1d46-2ca4-4d7d-84b5-f31f8047f713}*SharedItemsImports = 13
 		src\Utilities\Workspaces\Workspaces.Utilities.projitems*{99f594b1-3916-471d-a761-a6731fc50e9a}*SharedItemsImports = 13
 		src\Utilities\Compiler\Analyzer.Utilities.projitems*{ec946164-1e17-410b-b7d9-7de7e6268d63}*SharedItemsImports = 13
 		src\Utilities\FlowAnalysis\FlowAnalysis.Utilities.projitems*{fcb56cba-fa35-46a8-86b7-bae5433197d9}*SharedItemsImports = 13
@@ -558,6 +561,7 @@ Global
 		{697FE592-9EB8-493C-87DA-6C218A3B113D} = {8D64F6D4-951C-413E-8A53-FB708F9FB5CD}
 		{5AFCA3A1-C780-4E44-BFFA-D9224685FCE1} = {8D64F6D4-951C-413E-8A53-FB708F9FB5CD}
 		{5F301137-892C-4AD3-8550-B02992DC1A46} = {C0B86774-8307-444F-9EE4-98D62C3424F9}
+		{0D4A1D46-2CA4-4D7D-84B5-F31F8047F713} = {1F4F7A9B-FD3B-495F-86D0-89A7DEA2128C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC44ACA9-AEA3-4EE6-881C-2E08ED281B5F}

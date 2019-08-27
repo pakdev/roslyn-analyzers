@@ -72,6 +72,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)WellKnownTypes.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)WordParser.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)WordParserOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WordSpelling.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)DiagnosticCategoryAndIdRanges.txt" />
