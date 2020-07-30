@@ -2,6 +2,16 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en" target-language="zh-HANS" original="../TextAnalyzersResources.resx">
     <body>
+      <trans-unit id="IdentifiersShouldBeSpelledCorrectlyFileParse">
+        <source>Error parsing dictionary '{0}': {1}</source>
+        <target state="new">Error parsing dictionary '{0}': {1}</target>
+        <note />
+      </trans-unit>
+      <trans-unit id="IdentifiersShouldBeSpelledCorrectlyMessageVariable">
+        <source>Correct the spelling of '{0}' in variable name {1}.</source>
+        <target state="new">Correct the spelling of '{0}' in variable name {1}.</target>
+        <note />
+      </trans-unit>
       <trans-unit id="IdentifiersShouldBeSpelledCorrectlyTitle">
         <source>Identifiers should be spelled correctly</source>
         <target state="translated">标识符应正确拼写</target>
