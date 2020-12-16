@@ -106,14 +106,14 @@ namespace Text.Analyzers.UnitTests
                     .WithArguments("Program", "Program"));
         }
 
-        // [Fact]
-        // public void MisspellingAllowedByProjectDictionary_Verify_NoDiagnostics()
-        // {
-        //     var testFile = new TestFile("AssemblyA", "class Clazz {}");
-        //     var dictionary = CreateDicDictionary(new[] { "clazz" });
+        [Fact]
+        public void MisspellingAllowedByProjectDictionary_Verify_NoDiagnostics()
+        {
+            // var testFile = new TestFile("AssemblyA", "class Clazz {}");
+            // var dictionary = CreateDicDictionary(new[] { "clazz" });
 
-        //     VerifyDiagnostics(testFile, null, GetProjectAdditionalFiles("AssemblyA", dictionary));
-        // }
+            // VerifyDiagnostics(testFile, null, GetProjectAdditionalFiles("AssemblyA", dictionary));
+        }
 
         // [Fact]
         // public void MisspellingAllowedByDifferentProjectDictionary_Verify_EmitsDiagnostic()

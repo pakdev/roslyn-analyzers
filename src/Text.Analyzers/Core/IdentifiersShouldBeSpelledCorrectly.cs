@@ -444,6 +444,16 @@ namespace Text.Analyzers
 
         private static CodeAnalysisDictionary GetMainDictionary()
         {
+            // The "main" dictionary, Dictionary.dic, was created in WSL Ubuntu with the following commands:
+            //
+            // Install dependencies:
+            // > sudo apt install hunspell-tools hunspell-en-us
+            // 
+            // Create dictionary:
+            // > unmunch /usr/share/hunspell/en_US.dic /usr/share/hunspell/en_US.aff > Dictionary.dic
+            //
+            // Tweak:
+            // Added the words 'customizable', 'customizations', 'namespace', 'virtualize'
             var text = SourceText.From(TextAnalyzersResources.Dictionary);
             return ParseDicDictionary(text);
         }
